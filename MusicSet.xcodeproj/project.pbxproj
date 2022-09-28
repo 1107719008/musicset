@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		D51D6EE2269C1F1300E25263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D6EE1269C1F1300E25263 /* AppDelegate.swift */; };
 		D51D6EE4269C1F1300E25263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D6EE3269C1F1300E25263 /* SceneDelegate.swift */; };
-		D51D6EE6269C1F1300E25263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D6EE5269C1F1300E25263 /* ViewController.swift */; };
 		D51D6EE9269C1F1300E25263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51D6EE7269C1F1300E25263 /* Main.storyboard */; };
 		D51D6EEC269C1F1300E25263 /* MusicSet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D51D6EEA269C1F1300E25263 /* MusicSet.xcdatamodeld */; };
 		D51D6EEE269C1F1500E25263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51D6EED269C1F1500E25263 /* Assets.xcassets */; };
 		D51D6EF1269C1F1500E25263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51D6EEF269C1F1500E25263 /* LaunchScreen.storyboard */; };
 		D51D6EFC269C1F1600E25263 /* MusicSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D6EFB269C1F1600E25263 /* MusicSetTests.swift */; };
 		D51D6F07269C1F1600E25263 /* MusicSetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D6F06269C1F1600E25263 /* MusicSetUITests.swift */; };
+		D51D6F15269C1F7F00E25263 /* GenreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D6F14269C1F7F00E25263 /* GenreButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		D51D6EDE269C1F1300E25263 /* MusicSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51D6EE1269C1F1300E25263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D51D6EE3269C1F1300E25263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D51D6EE5269C1F1300E25263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D51D6EE8269C1F1300E25263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D51D6EEB269C1F1300E25263 /* MusicSet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicSet.xcdatamodel; sourceTree = "<group>"; };
 		D51D6EED269C1F1500E25263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		D51D6F02269C1F1600E25263 /* MusicSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51D6F06269C1F1600E25263 /* MusicSetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSetUITests.swift; sourceTree = "<group>"; };
 		D51D6F08269C1F1600E25263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51D6F14269C1F7F00E25263 /* GenreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				D51D6EE1269C1F1300E25263 /* AppDelegate.swift */,
 				D51D6EE3269C1F1300E25263 /* SceneDelegate.swift */,
-				D51D6EE5269C1F1300E25263 /* ViewController.swift */,
 				D51D6EE7269C1F1300E25263 /* Main.storyboard */,
+				D51D6F14269C1F7F00E25263 /* GenreButton.swift */,
 				D51D6EED269C1F1500E25263 /* Assets.xcassets */,
 				D51D6EEF269C1F1500E25263 /* LaunchScreen.storyboard */,
 				D51D6EF2269C1F1500E25263 /* Info.plist */,
@@ -261,8 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51D6EE6269C1F1300E25263 /* ViewController.swift in Sources */,
 				D51D6EE2269C1F1300E25263 /* AppDelegate.swift in Sources */,
+				D51D6F15269C1F7F00E25263 /* GenreButton.swift in Sources */,
 				D51D6EEC269C1F1300E25263 /* MusicSet.xcdatamodeld in Sources */,
 				D51D6EE4269C1F1300E25263 /* SceneDelegate.swift in Sources */,
 			);
